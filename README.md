@@ -1,4 +1,4 @@
-# JHPF
+# DL-JHPF
 Source codes of the article: P. Dong, H. Zhang and G. Y. Li, "Framework on Deep Learning-Based Joint Hybrid Processing for mmWave Massive MIMO Systems," IEEE Access, vol. 8, pp. 106023-106035, 2020,. Please cite this paper when using the codes.
 
 This folder contains codes for channel data generation executed in MATLAB and codes for channel estimation executed in Python.
