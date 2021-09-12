@@ -4,10 +4,15 @@ Source codes of the article: P. Dong, H. Zhang and G. Y. Li, "Framework on Deep 
 This folder contains codes for channel data generation executed in MATLAB and codes for channel estimation executed in Python.
 
 1. Narrow band
+
    (1) Use MIMO_3GPP_channel_multi_fre.m to generate channel data for training and testing
+   
    (2) Use JHPF_train.py to train DL-JHPF and save model.
+   
    (2) Use JHPF_train_further.py to further train DL-JHPF based on the saved model.
+   
    (3) Use JHPF_test.py to test the performance of the trained DL-JHPF.
    
 2. Broad band
+
    To be uploaded...
