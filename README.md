@@ -13,6 +13,6 @@ This folder contains codes for channel data generation executed in MATLAB and co
    
    (3) Use JHPF_test.py to test the performance of the trained DL-JHPF.
    
-2. Broad band
+2. OFDM
 
    To be uploaded...
