@@ -191,7 +191,7 @@ data_num_file=1000
 # Input1&2: perfect CSI
 H_test1=zeros((data_num_test,2*Nr*Nt), dtype=float)
 H_test2=zeros((data_num_test,Nr,Nt), dtype=complex)
-filedir = os.listdir('D:\\1fre_data')
+filedir = os.listdir('D:\\1fre_data')   # example data
 n=0
 for filename in filedir:
     newname = os.path.join('D:\\1fre_data', filename)
@@ -226,7 +226,7 @@ for num in range(total_num):
     channel_noise_test=1/np.sqrt(2)*np.random.randn(data_num_test,Nr,1)+1j*1/np.sqrt(2)*np.random.randn(data_num_test,Nr,1)
 
     # load model
-    model.load_weights('JHPF_UMi_3path_1fre_Ns3_10dB_600ep.hdf5')
+    model.load_weights('DLJHPF_UMi_3path_1fre_Ns3_10dB_600ep.hdf5')
     detected_bit_test=model.predict(x=[mod_symb_test, H_test1, H_test2, H_test2, channel_noise_test], batch_size=1000)
 
     detected_bit_test2=detected_bit_test
